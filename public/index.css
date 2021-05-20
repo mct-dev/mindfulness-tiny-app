@@ -1,0 +1,23 @@
+:root {
+  --color-black: #000;
+  --color-bg: #373535;
+  --color-text: #fff;
+  --color-border: #fff;
+}
+
+html, body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+input[type="text"] {
+  background: transparent;
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  color: var(--color-text);
+  caret-color: var(--color-text);
+}
+input[type="text"]:focus {
+  outline: none;
+}

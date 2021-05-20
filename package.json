@@ -1,0 +1,15 @@
+{
+  "name": "mindfulness-tiny-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Tobias",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
